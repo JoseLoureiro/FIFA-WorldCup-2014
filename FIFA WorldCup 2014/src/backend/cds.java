@@ -6,10 +6,26 @@
 
 package backend;
 
+import java.util.ArrayList;
+import java.util.TreeMap;
+
 /**
  *
  * @author joseloureiro
  */
 public class cds {
-    rewfwrfwef ewfewfew ef wf
+   private String nomeGrupo;
+    private TreeMap<Selecao, Integer> grupo;
+    
+    public Grupo(String nomeGrupo, ArrayList<Selecao> Selec){
+        this.nomeGrupo = nomeGrupo;
+        this.grupo = new TreeMap<Selecao, Integer>();
+        for(Selecao temp : Selec ){
+            this.grupo.put(temp, 0);
+        }
+ 
+    }
+    
 }
+
+
