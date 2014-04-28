@@ -15,7 +15,6 @@ import java.util.TreeMap;
  */
 public class cds {
    private String nomeGrupo;
-    private TreeMap<Selecao, Integer> grupo;
     
    
  
