@@ -11,5 +11,5 @@ package backend;
  * @author joseloureiro
  */
 public class atleta {
-    
+    private String oPintoeMuitoGay;
 }
